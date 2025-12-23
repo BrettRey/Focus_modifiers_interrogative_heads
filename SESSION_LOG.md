@@ -5,8 +5,79 @@
 - **Draft complete**: 2025-12-20, ~14:20 EST
 - **Polish complete**: 2025-12-20, ~17:00 EST
 - **Posted to LingBuzz**: 2025-12-20, ~21:00 EST
+- **Pullum revision**: 2025-12-23, ~13:00 EST
 - **Elapsed time**: ~9 hours (including gym and dinner break)
 - **Actual working time**: ~5-6 hours
+
+## Session: 2025-12-23 — Pullum Revision
+
+### Geoff's critical feedback (received Dec 23)
+
+> I am not at all sure that you're right about fused relatives allowing the precisification adverbs... To secure my own intuitions on the matter, I generally use examples like these:
+>
+> (2) a. What Frankenstein created that night still isn't clear. [subordinate interrogative]
+>     b. What Frankenstein created that night would later murder his wife. [fused relative]
+>
+> In (2b), the use of the fused relative as the subject of the verb murder completely rules out interpreting it as implicitly some kind of question... Now notice what happens under the precisification adverbs:
+>
+> (3) a. Exactly what Frankenstein created that night still isn't clear. [interrogative] ✓
+>     b. *Exactly what Frankenstein created that night would later murder his wife. [fused relative] ✗
+>
+> I'm pretty sure (3b) is disastrously bad. So (faute de mieux) I think in (1) you must have a disguised interrogative.
+
+**Verdict**: Geoff is right. The generalization simplifies.
+
+### Changes made
+
+| Section | Change |
+|---------|--------|
+| **Abstract** | Removed "fused relatives" — now says precision modifiers apply to interrogatives but not relatives "fused or otherwise" |
+| **Example paradigm** | Added Geoff's Frankenstein diagnostic: `*Exactly what F. created would murder his wife` |
+| **Section 1** | Added explanatory note on subordinate interrogative vs. fused relative disambiguation |
+| **Section 2** | "Interrogatives but excludes all relative constructions" |
+| **Section 3** | Removed the "fused relatives escape" explanation — all relatives background |
+| **Conclusion** | Updated to reflect simpler generalization |
+| **Open questions** | Removed free-choice disambiguation question (no longer relevant) |
+
+### Theoretical upshot
+
+The revised generalization is **simpler**: precision modifiers are licensed by **interrogatives only**. All relatives — fused and integrated alike — background the wh-word, so the BCI clash applies uniformly.
+
+The earlier claim that "fused relatives pattern with interrogatives" was based on examples like *I saw exactly what you did*, which are actually **subordinate interrogatives**, not fused relatives. Geoff's Frankenstein test disambiguates: use a predicate that forces a referential reading.
+
+### HPC table update
+
+| Property | Deixis (*today*) | Anaphor (rel. *who*) | Interrogative (*who?*) |
+|----------|------------------|----------------------|------------------------|
+| Determiner resistance | ✓ | ✓ | ✓ |
+| Focus-modifier licensing | ✗ | ✗ | ✓ |
+| Morphological paradigm | ✗ | partial | partial |
+
+(Removed the "fused ✓" note — fused relatives pattern with other relatives, not with interrogatives.)
+
+### Methodological concern: motivated reasoning?
+
+The BCI explanation worked equally well for opposite empirical claims:
+
+- **Original (wrong)**: Fused relatives foreground the wh-word (because it's the head), so precision modifiers work.
+- **Revised (correct)**: Fused relatives background the wh-word (because they're still relatives), so precision modifiers fail.
+
+Both stories *feel* principled. That's suspicious.
+
+**What saves it (maybe):**
+
+1. **The data came first.** Geoff provided the diagnostic; we adjusted the categorization. We didn't shop for data to fit the theory.
+
+2. **The modifier itself is the test.** We're using the precision-modifier distribution to *diagnose* foregrounding status, then unifying it with other BCI phenomena (islands, etc.). That's not circular if the goal is unification, not independent prediction.
+
+3. **It makes further predictions.** If this analysis is right, other foregrounding devices (focus particles, clefts) should pattern similarly with relatives. That's checkable.
+
+**Lesson for the paper:** Don't overclaim. Say: "The BCI principle provides a unified account. The data confirm that fused relatives pattern with other relatives in backgrounding the wh-element." That's descriptively accurate without pretending we predicted it.
+
+### Alternative test cases discussed
+
+- **\*Exactly whoever he met helped him** — morphologically unambiguous fused relative (*-ever*). Also bad. But conflates the two explananda (semantic vs. pragmatic), so not used in paper.
+- **\*Exactly what hair he had left was gray** — partitive fused relative. Unambiguous without special predicate. Used in paper.
 
 ## What was accomplished
 - Full 4-page Glossa squib drafted from scratch
