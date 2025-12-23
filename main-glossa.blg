@@ -1,19 +1,19 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'main-glossa.blg'
-[22] biber-darwin:340> INFO - === Sun Dec 21, 2025, 10:48:48
-[28] Biber.pm:419> INFO - Reading 'main-glossa.bcf'
-[56] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[63] Biber.pm:4419> INFO - Processing section 0
-[67] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[67] bibtex.pm:1713> INFO - LaTeX decoding ...
-[70] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[89] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[89] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[89] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
-[89] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
-[94] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[94] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[94] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
-[94] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
-[96] bbl.pm:660> INFO - Writing 'main-glossa.bbl' with encoding 'UTF-8'
-[98] bbl.pm:763> INFO - Output to main-glossa.bbl
+[27] biber-darwin:340> INFO - === Tue Dec 23, 2025, 15:47:48
+[34] Biber.pm:419> INFO - Reading 'main-glossa.bcf'
+[69] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[77] Biber.pm:4419> INFO - Processing section 0
+[81] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[82] bibtex.pm:1713> INFO - LaTeX decoding ...
+[85] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[108] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[108] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[108] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+[108] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[113] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[113] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[113] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-GB'
+[113] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-GB'
+[115] bbl.pm:660> INFO - Writing 'main-glossa.bbl' with encoding 'UTF-8'
+[117] bbl.pm:763> INFO - Output to main-glossa.bbl
