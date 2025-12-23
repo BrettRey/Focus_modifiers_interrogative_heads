@@ -1,0 +1,116 @@
+% !TEX TS-program = xelatex
+\documentclass[12pt]{article}
+
+\def\HouseMainFont{Hoefler Text}
+\input{.house-style/preamble.tex}
+
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\usepackage{setspace}
+\setstretch{1.12}
+\renewcommand{\term}[1]{\textbf{#1}}
+
+\hypersetup{
+  pdftitle={焦点修飾語と前景化制約}
+}
+
+\title{「\mention{Exactly who}」だが「\mention{*the person exactly who}」はダメ：\protect\\焦点修飾語と前景化制約}
+\author{Brett Reynolds \orcidlink{0000-0003-0073-7195}\\
+  Humber Polytechnic \& University of Toronto\\
+  \href{mailto:brett.reynolds@humber.ca}{brett.reynolds@humber.ca}}
+\date{2025年12月20日}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  \noindent
+  ほとんどの副詞はNPを修飾しないし、ほとんどのNPも副詞に修飾されない。それなのに、\mention{exactly}、\mention{precisely}、\mention{just}、\mention{only}といった副詞は、疑問詞（\mention{exactly who}、\mention{precisely what}）や融合関係節（\mention{just what you said}）を含む一部のNPを修飾できる。でも他の関係節構文（\mention{*the person exactly who called}）は修飾できない。本稿では、この制約を機能的に説明する。精密修飾語と特定のNPの組み合わせは意味的制約を反映し、多くの関係節構文の排除は語用論的制約を反映している。
+\end{abstract}
+
+\noindent\textbf{キーワード：} 焦点副詞、精密修飾語、疑問詞、融合関係節、統合関係節、前景化、背景化、情報構造
+
+\section{問題の所在}
+
+\mention{Exactly who called?}は文法的なのに、\mention{*The person exactly who called...}はなぜダメなのか。
+
+\emph{CGEL}によると、\mention{exactly}や\mention{precisely}のような副詞は、\mention{precisely nothing}のように、NPの周辺前位修飾語として機能できる：\mbox{[\textsubscript{NP} [\textsubscript{AdvP:Mod} \mention{precisely}] [\textsubscript{NP:Head} \mention{nothing}]]} \citep[437]{huddleston2002}。この分析は疑問NP（\mention{precisely who}、\mention{exactly what}、\mention{just which}）にも自然に拡張できる。ただ、分布は最初の印象ほど自由じゃない。
+
+\ea\label{ex:semantic}
+  \ea[]{\mention{Exactly the cats you mentioned were playing.}} \label{ex:bare}
+  \ex[*]{\mention{Exactly the cats were playing.}} \label{ex:restrictive}
+  \z
+\z
+次のパラダイムを見ると、より全体像が見えてくる：
+\ea\label{ex:paradigm}
+  \ea[]{[\mention{Exactly who}] \mention{called?} \hfill （開放疑問文、前位）} \label{ex:whq-pre}
+  \ex[]{[\mention{Who exactly}] \mention{called?} \hfill （開放疑問文、後位）} \label{ex:whq-post}
+  \ex[]{\mention{I saw} [\mention{exactly what you did}]\mention{.} \hfill （融合関係節）} \label{ex:fused}
+  \ex[*]{\mention{The person} [\mention{exactly who called}] \mention{left a message.} \hfill （統合関係節）} \label{ex:integrated}
+  \z
+\z
+修飾語\mention{else}も同じパターンを示す：
+\ea\label{ex:else}
+  \ea[]{[\mention{Who else}] \mention{called?}}
+  \ex[]{\mention{I'll do} [\mention{whatever else you need.}]}
+  \ex[*]{\mention{The person} [\mention{who else called}] \mention{left a message.}}
+  \z
+\z
+
+この対照は目を引く。融合関係節は疑問詞と同じパターンを見せるが、他の関係節構文はそうならない。\emph{CGEL}は、疑問詞が特殊な修飾語を許容することを指摘している—後位の\mention{else}、前位または後位の\mention{exactly}/\mention{precisely}、重ね使いの\mention{just exactly/precisely} \citep[592, 915--918]{huddleston2002}—が、このクラスがなぜ存在するのか、他の関係節構文がなぜ排除されるのかは説明していない。
+
+\section{統語的記述}
+
+\mention{exactly who}や\mention{precisely nothing}のような構文で、\emph{CGEL}は\mention{exactly}と\mention{precisely}を周辺修飾語として扱っている—NPの周辺、前限定詞修飾語より前にある外部修飾語だ。この位置は副詞一般に開かれているわけじゃない。焦点副詞（\mention{exactly}、\mention{precisely}、\mention{just}、\mention{only}）という限られた語彙素に制限されていて、最上級（\mention{only the best answer}）、\mention{right}や\mention{wrong}のような形容詞（\mention{exactly the right answer}）、指示詞（\mention{exactly that}）、疑問詞（\mention{exactly which one}）と共起する \citep[437]{huddleston2002}。
+
+\mention{precisely who}の構造は\mention{precisely nothing}と並行している—どちらも焦点副詞がNPの周辺修飾語になっている：
+\ea\label{ex:structure}
+{[}\textsubscript{NP} {[}\textsubscript{AdvP:Mod} \mention{precisely}{]} {[}\textsubscript{NP:Head} \mention{who}{]}{]}
+\z
+同じ分析は融合構文における他の限定詞類主要部にも適用できる
+\ea\label{ex:fused-structure}
+{[}\textsubscript{NP} {[}\textsubscript{AdvP:Mod} \mention{exactly}{]} {[}\textsubscript{NP:Head} \mention{that}{]}{]}
+\z
+そして前置された関係PPにも：
+
+\ea\label{ex:pied}
+  \ea[]{[\mention{In exactly which case}] \mention{would this apply?} \hfill （疑問文）} \label{ex:pied-q}
+  \ex[]{\mention{Perhaps it exists,} [\mention{in which case}] \mention{I'd try it.} \hfill （関係節）} \label{ex:pied-rel1}
+  \ex[*]{\mention{Perhaps it exists,} [\mention{in exactly which case}] \mention{I'd try it.} \hfill （関係節）} \label{ex:pied-rel2}
+  \z
+\z
+
+統語的な全体像は明確だ：焦点副詞は、特定の種類の主要部を持つNPで、周辺修飾語機能のAdvP主要部になれる。説明されていないのは、なぜこの集合に疑問詞と融合関係節が含まれ、他の関係節は排除されるのかという点だ。
+
+\section{二層の機能的説明}
+
+答えは、意味論と情報構造という二つの層に関わっていると思う。
+
+疑問詞は選択肢の集合を表す \citep{hamblin1973}。\mention{Who called?}は聞き手に選択肢集合から正しい答えを特定するよう求めている。\mention{Exactly}と\mention{precisely}は網羅的な同定を示す—答えは曖昧さなく完全な集合を指し示さなければならない \citep{theiler2018}。
+
+この意味操作には、操作の対象となる選択肢が必要だ。\mention{cats}のような普通名詞は同じように選択肢集合を表さない。\mention{*precisely cats}がおかしいのは、精密化すべきものがないからだ。\footnote{\mention{exactly three cats}や\mention{precisely those cats}のような構文は、ここで議論しているNP周辺位置ではなく、DP層（数詞や指示詞を対象として）での修飾を含む。}でも、\mention{nothing}、\mention{who}、融合関係節の\mention{what}はどれも選択肢にわたって範囲を持つ—まさに精密修飾語が必要とするものだ。
+
+第二の層は語用論的だ。非融合関係節の制約には別の説明が必要になる。意味的には、融合関係節と他の関係節構文はそんなに違わない—どちらも関係語と選択肢を含む。じゃあなぜ\mention{exactly what you said}はよくて\mention{*the person exactly who called}はダメなのか。
+
+島の制約に関する研究が答えを与えてくれる。\textcite{goldberg2006}に続き、\textcite{cuneo2023}の実証結果によって支持される\term{背景化構成素不適格性（Backgrounded Constituent Infelicity, BCI）}\footnote{標準的な名称は\term{Backgrounded Constructions are Islands (BCI)}である。}原理は、同じ構成素を前景化すると同時に背景化するのは不適格だとする。長距離依存関係は前置された句を前景化し、島の構文はそれを背景化する—だから衝突が起きる。焦点修飾語は疑問語を前景化し、関係節はそれを背景化する—だから同じ衝突が起きる。
+
+\mention{the person who called}では、関係節は背景化されている。\mention{exactly}を加えると\mention{who}を前景化しようとする—でも\mention{who}は背景化された内容の中に埋め込まれている。結果は衝突だ。
+
+融合関係節はこの問題を逃れる。関係語が焦点にあるからだ—背景情報じゃなく、同定の中心になっている。\mention{Exactly what you said}は指示対象を同定し、関係語が同定の焦点を担う。衝突は起きない。
+
+\mention{else}はというと、網羅性じゃなく対比を通じて前景化する。すでに排除された選択肢を呼び起こすわけだ。でも語用論的な効果は同じ：前景化と背景化された関係節内容が衝突する。これでこのクラスが統一的に説明できる。
+
+\section{結論}
+
+疑問詞における\mention{exactly}、\mention{precisely}、\mention{just}、\mention{only}の分布は、予想外の非対称性を示している：融合関係節は疑問詞と同じパターンを見せるが、他の関係節はそうならない。統語論が修飾語の付加位置を特定する。意味論が選択肢がなぜ修飾語を許容するかを説明する。語用論が背景化がなぜそれをブロックするかを説明する。
+
+この最後の点は、島の制約に関するより広い研究とつながっている。精密修飾語が前景化装置だとすれば、他の関係節構文との非両立性は、背景化された構成素が抽出に抵抗するのと同じメカニズムから導かれる。長距離依存関係のために開発された\term{BCI}原理が、焦点修飾にも一般化できるわけだ。
+
+いくつかの問題が未解決のまま残っている。なぜ\mention{just exactly/precisely}の重ね使いはよくて\mention{*exactly just}はダメなのか。通言語的な並行例（ドイツ語の\mention{genau wer}、\mention{ausgerechnet}）は同じ分布的制約を示すのか。感嘆文がこれらの修飾語を拒否するのはなぜか（\mention{*Exactly what a disaster!}）—同定を要する選択肢じゃなく極端な程度を表すからか。\mention{exactly whatever you want}は自由選択解釈より融合関係節読みを強制するのか、もしそうなら同定が許容条件だという確証になるのか。そして最後に、判断は本当にカテゴリカルなのか、それとも段階的なのか。\mention{exactly}に強い対照強勢を置くと非文法的な関係節が改善されるなら、統語的説明より語用論的説明を支持することになる。
+
+でも核心の観察は成り立つ。\mention{Exactly who}がいいのは同一性が問題になっているからだ。\mention{The person exactly who}がダメなのは、背景化された内容が前景化に抵抗するからなのだ。
+
+\printbibliography
+
+\end{document}

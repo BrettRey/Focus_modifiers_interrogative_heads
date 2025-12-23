@@ -1,0 +1,131 @@
+% !TEX TS-program = xelatex
+\documentclass[12pt]{article}
+
+% Local font path override for Charis SIL (optional on other machines).
+\def\HouseMainFontPath{/Users/brettreynolds/Library/Fonts/}
+
+\input{.house-style/preamble.tex}
+\usepackage{setspace}
+
+\hypersetup{
+  pdftitle={Focus modifiers and the foregrounding constraint}
+}
+
+\title{\mention{Exactly who} but not \mention{*the person exactly who}:\protect\\focus modifiers and the foregrounding constraint}
+\author{Anonymous}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begingroup
+\centering
+\textit{Word count: 1249 (including footnotes and references)}\par
+\endgroup
+
+\onehalfspacing
+
+\begin{abstract}
+  \noindent
+  Most adverbs never modify NPs and most NPs are never modified by adverbs. It's curious, then, that the adverbs \mention{exactly}, \mention{precisely}, \mention{just}, and \mention{only} can modify a few types of NPs including interrogatives (\mention{exactly who}, \mention{precisely what}) and fused relatives (\mention{just what you said}) but not other relative constructions (\mention{*the person exactly who called}). I propose functional explanations for these restrictions. The pairing of precision modifiers with certain NPs reflects a semantic constraint, while the exclusion of most relative constructions reflects a pragmatic one.
+\end{abstract}
+
+\noindent\textbf{Keywords:} focusing adverbs, precision modifiers, interrogatives, fused relatives, integrated relatives, foregrounding, backgrounding, information structure
+
+\section{The puzzle}
+
+\mention{Exactly who called?} *\mention{The person exactly who called\dots}. Why is the first grammatical and the second not?
+
+\emph{CGEL} notes that adverbs like \mention{exactly} and \mention{precisely} can function as peripheral pre-head modifiers of NPs, as in \mention{precisely nothing}: \mbox{[\textsubscript{NP} [\textsubscript{AdvP:Mod} \mention{precisely}] [\textsubscript{NP:Head} \mention{nothing}]]} \citep[437]{huddleston2002}. This analysis extends naturally to interrogative NPs: \mention{precisely who}, \mention{exactly what}, \mention{just which}. But the distribution is not as free as this initial parallel might suggest.
+
+
+\ea\label{ex:semantic}
+  \ea[]{\mention{Exactly the cats you mentioned were playing.}} \label{ex:bare}
+  \ex[*]{\mention{Exactly the cats were playing.}} \label{ex:restrictive}
+  \z
+\z
+A fuller picture emerges from the following paradigm:
+\ea\label{ex:paradigm}
+  \ea[]{[\mention{Exactly who}] \mention{called?} \hfill (open interrogative, pre-head)} \label{ex:whq-pre}
+  \ex[]{[\mention{Who exactly}] \mention{called?} \hfill (open interrogative, post-head)} \label{ex:whq-post}
+  \ex[]{\mention{I saw} [\mention{exactly what you did}]\mention{.} \hfill (fused relative)} \label{ex:fused}
+  \ex[*]{\mention{The person} [\mention{exactly who called}] \mention{left a message.} \hfill (integrated relative)} \label{ex:integrated}
+  \z
+\z
+and the modifier \mention{else} shows the same pattern:
+\ea\label{ex:else}
+  \ea[]{[\mention{Who else}] \mention{called?}}
+  \ex[]{\mention{I'll do} [\mention{whatever else you need.}]}
+  \ex[*]{\mention{The person} [\mention{who else called}] \mention{left a message.}}
+  \z
+\z
+
+The contrast is striking. Fused relatives pattern with interrogatives; other relative constructions don't. \emph{CGEL} notes that interrogatives license special modifiers~-- post-head \mention{else}, pre- or post-head \mention{exactly}/\mention{precisely}, and stacked \mention{just exactly/precisely} \citep[592, 915--918]{huddleston2002}~-- but doesn't explain why this class exists or why other relative constructions are excluded.
+
+\section{The syntactic description}
+
+In constructions like \mention{exactly who} and \mention{precisely nothing}, \emph{CGEL} treats \mention{exactly} and \mention{precisely} as peripheral modifiers~-- external modifiers at the NP periphery, before any predeterminer modifiers. This position isn't open to adverbs generally; it's restricted to a small set of lexemes~-- focusing adverbs like \mention{exactly}, \mention{precisely}, \mention{just}, and \mention{only}~-- occurring with superlatives (\mention{only the best answer}), adjectives like \mention{right} and \mention{wrong} (\mention{exactly the right answer}), demonstratives (\mention{exactly that}), and interrogatives (\mention{exactly which one}) \citep[437]{huddleston2002}.
+
+The structure for \mention{precisely who} parallels that for \mention{precisely nothing}~-- both have the focusing adverb as a peripheral modifier of the NP:
+\ea\label{ex:structure}
+{[}\textsubscript{NP} {[}\textsubscript{AdvP:Mod} \mention{precisely}{]} {[}\textsubscript{NP:Head} \mention{who}{]}{]}
+\z
+The same analysis applies to other determinative heads in fused constructions
+\ea\label{ex:fused-structure}
+{[}\textsubscript{NP} {[}\textsubscript{AdvP:Mod} \mention{exactly}{]} {[}\textsubscript{NP:Head} \mention{that}{]}{]}
+\z
+and to fronted relative PPs:
+
+\ea\label{ex:pied}
+  \ea[]{[\mention{In exactly which case}] \mention{would this apply?} \hfill (interrogative)} \label{ex:pied-q}
+  \ex[]{\mention{Perhaps it exists,} [\mention{in which case}] \mention{I'd try it.} \hfill (relative)} \label{ex:pied-rel1}
+  \ex[*]{\mention{Perhaps it exists,} [\mention{in exactly which case}] \mention{I'd try it.} \hfill (relative)} \label{ex:pied-rel2}
+  \z
+\z
+
+The syntactic picture is clear: focusing adverbs can head AdvPs in peripheral modifier function in NPs with certain kinds of heads. What remains unexplained is why this set includes interrogatives and fused relatives but excludes other relatives.
+
+\section{A two-layer functional explanation}
+
+The answer, I suggest, involves two layers: semantics and information structure.
+
+Interrogatives denote sets of alternatives \citep{hamblin1973}. \mention{Who called?} asks the addressee to identify the true answer(s) from an alternative set. \mention{Exactly} and \mention{precisely} signal exhaustive identification~-- the answer has to pick out the complete set, with no hedging \citep{theiler2018}.
+
+This semantic operation requires alternatives to operate over. Ordinary nouns like \mention{cats} don't denote alternative sets in the same way; \mention{*precisely cats} is deviant because there's nothing to precisify.\footnote{Constructions like \mention{exactly three cats} or \mention{precisely those cats} involve modification at the DP level (targeting the numeral or demonstrative), not the NP-peripheral position discussed here.} But \mention{nothing}, \mention{who}, and fused-relative \mention{what} all range over alternatives~-- exactly what precision modifiers need.
+
+The second layer is pragmatic. The non-fused relative restriction requires a different explanation. Semantically, fused relatives and other relative constructions aren't that different~-- both involve relative words and alternatives. So why does \mention{exactly what you said} work but \mention{*the person exactly who called} fail?
+
+Work on island constraints offers an answer. Following \textcite{goldberg2006} and supported by the empirical results in \textcite{cuneo2023}, the \term{Backgrounded Constituent Infelicity (BCI)}\footnote{The standard label in Goldberg's formulation is \term{Backgrounded Constructions are Islands (BCI)}.} principle holds that foregrounding and backgrounding the same constituent is infelicitous. Long-distance dependencies foreground the fronted phrase; island constructions background it~-- hence the clash. Focusing modifiers foreground the interrogative word; relatives background it~-- hence the same clash.
+
+In \mention{the person who called}, the relative clause is backgrounded. Adding \mention{exactly} attempts to foreground \mention{who}~-- but \mention{who} is embedded in backgrounded content. The result is a clash.
+
+Fused relatives escape this problem because the relative word is at-issue~-- it's the locus of identification, not background information. \mention{Exactly what you said} identifies the referent; the relative word bears the focus of the identification. No clash arises.
+
+As for \mention{else}, it foregrounds via contrast rather than exhaustivity, invoking alternatives already excluded. But the pragmatic effect is the same: foregrounding clashes with backgrounded relative content. This unifies the class.
+
+\section{Conclusion}
+
+The distribution of \mention{exactly}, \mention{precisely}, \mention{just}, and \mention{only} with interrogatives reveals an unexpected asymmetry: fused relatives pattern with interrogatives, but other relatives don't. Syntax identifies where the modifier attaches. Semantics explains why alternatives license it. Pragmatics explains why backgrounding blocks it.
+
+This last point connects to broader work on island constraints. If precision modifiers are foregrounding devices, their incompatibility with other relative constructions follows from the same mechanism that makes backgrounded constituents resist extraction. The \term{BCI} principle, developed for long-distance dependencies, generalises to focus modification.
+
+Several questions remain open. Why does the stacking \mention{just exactly/precisely} work but not \mention{*exactly just}? Do cross-linguistic parallels (German \mention{genau wer}, \mention{ausgerechnet}) show the same distributional constraints? Why do exclamatives resist these modifiers (\mention{*Exactly what a disaster!})~-- is it because they denote extreme degree rather than alternatives requiring identification? Does \mention{exactly whatever you want} force a fused-relative reading over the free-choice interpretation, and if so, does this confirm that identification is the licensing condition? Finally, are the judgments truly categorical or gradient? If heavy contrastive stress on \mention{exactly} ameliorates degraded relatives, that would support a pragmatic rather than syntactic account.
+
+But the core observation holds. \mention{Exactly who} works because identity is at stake. \mention{The person exactly who} fails because backgrounded content resists foregrounding.
+
+\section*{Declarations}
+\noindent\textbf{Competing interests:} The author declares no competing interests.
+
+\noindent\textbf{Data availability:} No new data were created or analysed in this study.
+
+\noindent\textbf{Ethics approval/consent:} Not applicable.
+
+\noindent\textbf{Funding:} None.
+
+\noindent\textbf{Acknowledgements:} Omitted for anonymous review.
+
+\clearpage
+\printbibliography
+
+\end{document}

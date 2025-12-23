@@ -1,0 +1,387 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{cuneo2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dce491527bbd3f2da7d38feae8baa963}{%
+           family={Cuneo},
+           familyi={C\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0772cecb57bc92107c7012fed0d13382}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Adele\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{fullhash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{bibnamehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{authorbibnamehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{authornamehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{authorfullhash}{fb87842c51df68a63cc6e60a820df904}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{title}{The Discourse Functions of Grammatical Constructions Explain an Enduring Syntactic Puzzle}
+      \field{volume}{240}
+      \field{year}{2023}
+      \field{pages}{105563}
+      \range{pages}{1}
+    \endentry
+    \entry{goldberg2006}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0772cecb57bc92107c7012fed0d13382}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Adele\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{fullhash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{bibnamehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{authorbibnamehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{authornamehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{authorfullhash}{0772cecb57bc92107c7012fed0d13382}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Constructions at Work: The Nature of Generalization in Language}
+      \field{title}{Island Constraints and Scope}
+      \field{year}{2006}
+      \field{pages}{129\bibrangedash 165}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199268511.003.0007
+      \endverb
+    \endentry
+    \entry{hamblin1973}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53f1071d31dc86bd42e7a44d06fcb687}{%
+           family={Hamblin},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{fullhash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{bibnamehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{authorbibnamehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{authornamehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{authorfullhash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Foundations of Language}
+      \field{title}{Questions in {Montague} {English}}
+      \field{volume}{10}
+      \field{year}{1973}
+      \field{pages}{41\bibrangedash 53}
+      \range{pages}{13}
+    \endentry
+    \entry{huddleston2002}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4a7987d3fffab21c9756f8ce95ab03e}{%
+           family={Huddleston},
+           familyi={H\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2925d6199ca3c6f0b208850cac579716}{%
+           family={Pullum},
+           familyi={P\bibinitperiod},
+           given={Geoffrey\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{bibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorbibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authornamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {Cambridge} Grammar of the {English} Language}
+      \field{year}{2002}
+    \endentry
+    \entry{theiler2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0ab5c3c912fe0c213ea51a4e6697128b}{%
+           family={Theiler},
+           familyi={T\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d82ceae7e0fcf250e81b471bbc857022}{%
+           family={Roelofsen},
+           familyi={R\bibinitperiod},
+           given={Floris},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfbf6c27ebadd3df42bc21e18e25d816}{%
+           family={Aloni},
+           familyi={A\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{488754fc650e61f7987e2e8d6f2115fe}
+      \strng{fullhash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \strng{bibnamehash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \strng{authorbibnamehash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \strng{authornamehash}{488754fc650e61f7987e2e8d6f2115fe}
+      \strng{authorfullhash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Semantics}
+      \field{number}{3}
+      \field{title}{A Uniform Semantics for Declarative and Interrogative Complements}
+      \field{volume}{35}
+      \field{year}{2018}
+      \field{pages}{409\bibrangedash 466}
+      \range{pages}{58}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{cuneo2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dce491527bbd3f2da7d38feae8baa963}{%
+           family={Cuneo},
+           familyi={C\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0772cecb57bc92107c7012fed0d13382}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Adele\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{fullhash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{bibnamehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{authorbibnamehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{authornamehash}{fb87842c51df68a63cc6e60a820df904}
+      \strng{authorfullhash}{fb87842c51df68a63cc6e60a820df904}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition}
+      \field{title}{The Discourse Functions of Grammatical Constructions Explain an Enduring Syntactic Puzzle}
+      \field{volume}{240}
+      \field{year}{2023}
+      \field{pages}{105563}
+      \range{pages}{1}
+    \endentry
+    \entry{goldberg2006}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0772cecb57bc92107c7012fed0d13382}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Adele\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{fullhash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{bibnamehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{authorbibnamehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{authornamehash}{0772cecb57bc92107c7012fed0d13382}
+      \strng{authorfullhash}{0772cecb57bc92107c7012fed0d13382}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Constructions at Work: The Nature of Generalization in Language}
+      \field{title}{Island Constraints and Scope}
+      \field{year}{2006}
+      \field{pages}{129\bibrangedash 165}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1093/acprof:oso/9780199268511.003.0007
+      \endverb
+    \endentry
+    \entry{hamblin1973}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53f1071d31dc86bd42e7a44d06fcb687}{%
+           family={Hamblin},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{fullhash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{bibnamehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{authorbibnamehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{authornamehash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \strng{authorfullhash}{53f1071d31dc86bd42e7a44d06fcb687}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Foundations of Language}
+      \field{title}{Questions in {Montague} {English}}
+      \field{volume}{10}
+      \field{year}{1973}
+      \field{pages}{41\bibrangedash 53}
+      \range{pages}{13}
+    \endentry
+    \entry{huddleston2002}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4a7987d3fffab21c9756f8ce95ab03e}{%
+           family={Huddleston},
+           familyi={H\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2925d6199ca3c6f0b208850cac579716}{%
+           family={Pullum},
+           familyi={P\bibinitperiod},
+           given={Geoffrey\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{bibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorbibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authornamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {Cambridge} Grammar of the {English} Language}
+      \field{year}{2002}
+    \endentry
+    \entry{theiler2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0ab5c3c912fe0c213ea51a4e6697128b}{%
+           family={Theiler},
+           familyi={T\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d82ceae7e0fcf250e81b471bbc857022}{%
+           family={Roelofsen},
+           familyi={R\bibinitperiod},
+           given={Floris},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfbf6c27ebadd3df42bc21e18e25d816}{%
+           family={Aloni},
+           familyi={A\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{488754fc650e61f7987e2e8d6f2115fe}
+      \strng{fullhash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \strng{bibnamehash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \strng{authorbibnamehash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \strng{authornamehash}{488754fc650e61f7987e2e8d6f2115fe}
+      \strng{authorfullhash}{eabb60c3fada18349c01fbe80ba67bdb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Semantics}
+      \field{number}{3}
+      \field{title}{A Uniform Semantics for Declarative and Interrogative Complements}
+      \field{volume}{35}
+      \field{year}{2018}
+      \field{pages}{409\bibrangedash 466}
+      \range{pages}{58}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
