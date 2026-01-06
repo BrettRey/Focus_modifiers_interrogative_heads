@@ -6,7 +6,7 @@ This study tests whether information structure predicts the acceptability of pre
 
 ## Theoretical Background
 
-Goldberg's (2006) Backgrounded Constituent Infelicity (BCI) principle: foregrounding and backgrounding the same constituent is infelicitous. This explains extraction islands—the fronted phrase is foregrounded, but island contexts background it.
+Goldberg's (2006) Backgrounded Constituent Infelicity (BCI) principle: foregrounding and backgrounding the same constituent is infelicitous. Long-distance dependencies foreground the fronted phrase; island constructions background it—hence the clash.
 
 **Extension hypothesis:** Precision modifiers foreground the NP they attach to. If the NP is backgrounded, the result is infelicitous, parallel to extraction islands.
 
