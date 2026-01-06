@@ -1,0 +1,26 @@
+Subject: Re: Focus modifiers study — revised micro-pilot attached
+
+Hi Adele,
+
+Thanks for the sharp point about it-clefts. You're right that clefts don't *demand* focus—they just mark a position as focus-available. This pushed me to reframe the prediction: the relevant contrast is focus-congruence within a syntactic frame, not the frame itself. If the discourse context makes the NP actually focused (new, contrastive), *exactly* should be better than when that same NP is discourse-given.
+
+For now, though, I've stepped back to a pre-flight micro-pilot to make sure the core phenomenon is robust before we scale up. The attached 27-item survey tests:
+
+1. Core contrast: *Exactly who called?* (✓) vs. *The person exactly who called left* (?)
+2. Fused relatives: Do they pattern with integrated relatives? If so, head-noun competition isn't the issue.
+3. Matched surface strings: Same string, different complement type forced by the matrix verb (*I know exactly what she said* vs. *I repeated exactly what she said*)
+4. Post-head position: Does *who exactly called* help in relatives?
+5. D-linked wh- inside RCs: Is *exactly* okay inside a relative clause when it's not modifying the relative phrase itself?
+6. Prosodic boundaries: Do commas/dashes rescue integrated relatives, or just shift to appositive territory?
+
+For each marginal/bad judgment, I'm asking: "Is it bad because it's hard to parse, not something people would say, or ungrammatical?" — this should help us diagnose whether degradation is processing cost, pragmatic oddity, or structural ill-formedness.
+
+Could you run this informally with 5–10 colleagues or students before we invest in a full Prolific sample? Should take ~10 minutes. If the core phenomenon is robust, we can then build the focus-congruence manipulation on solid ground.
+
+Best,
+Brett
+
+---
+Attachments:
+- micro-pilot-survey.pdf (participant version)
+- micro-pilot-v2.md (full version with notes)
