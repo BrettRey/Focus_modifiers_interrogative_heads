@@ -52,3 +52,12 @@ Payne, Huddleston & Pullum (2010) analyze "precisely nothing" as adverbial modif
 # When LaTeX files exist
 lualatex main.tex && biber main && lualatex main.tex && lualatex main.tex
 ```
+
+
+## Multi-Agent Dispatch (MANDATORY)
+
+Before dispatching multiple agents, ALWAYS ask Brett:
+1. **Which model(s)?** Claude, Codex, Gemini, Copilot
+2. **Redundant outputs?** Multiple models on same task for different perspectives?
+
+See portfolio-level `CLAUDE.md` for CLI command patterns and full workflow.
