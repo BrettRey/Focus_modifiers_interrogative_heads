@@ -12,3 +12,4 @@
 *.pdf
 !main.pdf
 !main-*.pdf
+.DS_Store
