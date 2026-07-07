@@ -2,12 +2,13 @@
 
 ## Current State
 
-**Status:** SUBMITTED to Glossa; under review, one reviewer outstanding as of 2026-05-20
-**Target:** Glossa (squib, ≤5000 words)
-**Manuscript ID:** 27281
-**Last updated:** 2026-05-27
+**Status:** PARKED after Glossa rejection; no immediate revision planned
+**Target:** None active; Glossa lane freed for other submissions
+**Manuscript ID:** Glossa 27281
+**Last updated:** 2026-07-07
 **Editor:** Agata Renans (Konstanz)
-**Expected decision:** within ~one month (by ~2026-06-20) per editor's 2026-05-20 reply to Brett's 2026-05-17 status enquiry
+**Decision:** Rejected after review on 2026-07-07; editor saw no viable way to publication in Glossa on the basis of the reviews.
+**Reviews:** Private triage saved in `correspondence/glossa-reviews-2026-07-07.md` (ignored by git).
 
 ## Progress
 
@@ -26,9 +27,13 @@
 - [x] Pullum revision: fused relatives don't license precision modifiers
 - [x] Update LingBuzz
 - [x] Glossa submission (Dec 23)
+- [x] Glossa decision received (rejected after review, 2026-07-07)
+- [x] Park rather than rebuild for now; keep Glossa available for stronger submissions
 
 ## Session Summary
 
+- **2026-07-07 Glossa decision**: Agata Renans rejected manuscript 27281 after reviews, saying she did not see a viable way to publication at Glossa. Review signal: interesting observation and potentially relevant theoretical issue, but the squib is too compressed; BCI/precisification/alternatives need spelling out; judgment sources and contexts need grounding; and the paper would need stronger engagement with NP/DP structure, degree modification, and wh/relative-clause literature. Brett's decision: this was not a strong enough paper to prioritize now, so park it rather than expand immediately; the useful consequence is that Glossa is free for another submission.
+- **2026-07-04 status nudge**: Brett nudged Glossa about the pending squib. Prior state: Brett enquired 2026-05-17; Agata Renans replied 2026-05-20 that one reviewer was still outstanding and expected a decision within about a month.
 - **2026-05-27 PM provenance/build cleanup**: Restored `references.bib` from the committed project-local bibliography after the central-bibliography symlink broke the Glossa build. The central bibliography lacks `hamblin1973`, `theiler2018`, and `cuneo2023`, all cited by `main-glossa.tex`; with the symlink, a temp build produced Biber missing-entry warnings and undefined citations. After restoration, a temp XeLaTeX/Biber build of `main-glossa.tex` completed with no missing-entry warnings and no undefined citations in the final log. No manuscript content changed. Added `.DS_Store` to `.gitignore`; the already tracked `study-focus-bci/.DS_Store` remains a separate hygiene issue.
 - **2026-04-01**: Rebuilt the stimulus planning around a clean two-study design and produced a shareable discussion draft at `study-focus-bci/stimuli/two-track-stimulus-sets-draft.md`. Study 1 now distinguishes core subject relatives, exploratory subject `that`, integrated object relatives (`which/that/bare`), supplementary `which`, and free-relative / whole-NP families. Study 2 is now a contextual ranking study with a full text version and a smaller audio subset, using stable third-person reference frames instead of dialogue-dependent `I/you` alternations. The backgroundedness diagnostics were also redesigned so their task logic is internally coherent.
 - **2026-04-01 (later)**: Tightened the stimulus bank before sharing it with Adele. The clean Study 1 text core is now human `who` only, with nonhuman subject `which` moved into a secondary replication family and the free-relative supplement given explicit interpretation probes. Applied sentence-level reviewer fixes across the exploratory `that` family, the free-relative supplement, the object/supplementary nonhuman families, Study 2 incongruent contexts, and the negation/discourse diagnostics. Exported Adele-facing Dropbox snapshots as `stimulus-redesign-for-adele-2026-04-01.{md,docx}` and drafted `study-focus-bci/email-to-adele-2026-04-01.md`.

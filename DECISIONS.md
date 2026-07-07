@@ -6,6 +6,10 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 
 ---
 
+## 2026-07-07
+
+- **Glossa rejection recorded and paper parked.** Agata Renans declined manuscript 27281 after reviews, saying she saw no viable way to publication in Glossa. The reviews treat the observation as interesting but the squib as underdeveloped: BCI/precisification/alternatives need detail, judgments need contextual grounding, and the syntax/semantics literature base would need expansion. Brett's decision is to leave the paper parked for now rather than rebuild it immediately; Glossa is now available for stronger future submissions.
+
 ## 2026-05-27
 
 - **Local bibliography restored for Glossa build reproducibility.** Reverted the `references.bib` symlink back to the committed project-local bibliography because the central bibliography is missing cited keys used by `main-glossa.tex` (`hamblin1973`, `theiler2018`, `cuneo2023`). A temp XeLaTeX/Biber build failed citation resolution before restoration and completed cleanly afterward. Do not relink this project to the central bibliography unless the missing keys are first merged centrally and the Glossa build is rechecked.

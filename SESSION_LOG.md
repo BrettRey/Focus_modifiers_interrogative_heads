@@ -6,8 +6,15 @@
 - **Polish complete**: 2025-12-20, ~17:00 EST
 - **Posted to LingBuzz**: 2025-12-20, ~21:00 EST
 - **Pullum revision**: 2025-12-23, ~13:00 EST
+- **Glossa decision**: 2026-07-07, rejected after review; paper parked for now
 - **Elapsed time**: ~9 hours (including gym and dinner break)
 - **Actual working time**: ~5-6 hours
+
+## Session: 2026-07-07 — Glossa Decision
+
+Agata Renans rejected manuscript 27281 after review, saying there was no viable way to publication in Glossa on the basis of the reports. The review signal was consistent: interesting contrast, but the squib is too compressed. A viable rebuild would need a fuller BCI/precisification account, clearer judgment/context grounding, and deeper engagement with NP/DP structure, degree modification, wh-questions, and relative-clause literature.
+
+Decision: park the paper for now rather than rebuild it immediately. The useful portfolio consequence is that Glossa is now free for a stronger future submission. Private triage is in `correspondence/glossa-reviews-2026-07-07.md`, which is intentionally ignored by git.
 
 ## Session: 2025-12-23 — Pullum Revision
 
