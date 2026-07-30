@@ -1,3 +1,33 @@
+---
+slug: focus-modifiers-interrogative-heads
+kind: paper
+title: Focus modifiers with interrogative heads
+stage: complete
+external: rejected
+blocked_on: []
+updated: 2026-07-07
+source:
+- STATUS.md
+- PORTFOLIO.md
+parked: true
+venue: Glossa (OLH)
+external_id: '27281'
+notes: 'Rejected after review by Glossa 2026-07-07 (manuscript 27281, editor Agata Renans, Konstanz);
+  reviews found the contrast interesting but the squib too compressed (BCI/precisification/alternatives,
+  judgment grounding, and syntax/semantics literature all need expansion). Both STATUS.md and PORTFOLIO.md:28
+  record Brett''s decision as: leave parked for now rather than rebuild. This is a deliberate deprioritization
+  by Brett, not an external block. RESOLVED by ADJUDICATION 2026-07-30: this block is gap 8, and the new
+  optional boolean `parked: true` is what it produced. blocked_on stays empty, because nothing external
+  prevents Brett resuming work today; `parked: true` carries the deliberate-idleness the old ''parked''
+  bucket meant, keeping the axes orthogonal instead of putting a non-blocker in blocked_on. This is the
+  clear case of the three (with market-failures-with-nature and varieties-as-conditioning-structure):
+  a decision to stop is on the record, not merely a quiet patch. STATUS.md and SESSION_LOG.md both record
+  the squib was ''Posted to LingBuzz'' (2025-12-20) but no LingBuzz ID/URL is recorded anywhere in the
+  project''s files (checked STATUS.md, DECISIONS.md, SESSION_LOG.md, README.md, AGENTS.md); preprints
+  field omitted rather than guessed. The related Goldberg empirical-follow-up collaboration (PORTFOLIO.md:136)
+  is a separate tracked project relationship, not part of this squib''s own state.'
+---
+
 # STATUS.md
 
 ## Current State
