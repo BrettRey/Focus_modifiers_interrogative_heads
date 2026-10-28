@@ -23,8 +23,8 @@ checks) changed what the study needs to test.
 - **A rating contrast.** In five attested frames, plain *what* + *exactly*
   is worse than *whatever* + *exactly*, while plain *what* without
   *exactly* is fine (Brett's judgments). Brett is running that as a small
-  rating study of his own (`../study-ever-exactly/protocol.md`, eight
-  frames, *whatever/what* × ±*exactly*).
+  rating study of his own (`../study-ever-exactly/protocol.md`,
+  sixteen frames, *whatever/what* × ±*exactly*).
 
 Two accounts compete for that contrast. On the *backgrounding* account,
 *exactly*'s acceptability tracks how backgrounded the relative clause's
@@ -39,7 +39,8 @@ frames is what tells them apart.
 
 ## Proposal: Negation and Discourse tasks on the same frames
 
-Score the `-modifier` versions of Brett's eight frames, in both the
+Score the `-modifier` versions of Brett's frames (the first eight are
+listed below; his protocol has sixteen, and any subset works), in both the
 *whatever* and *what* versions, plus the April headed-relative and plain
 free-relative frames, on Cuneo & Goldberg's Negation and Discourse tasks,
 with participants separate from any rating study.
@@ -58,7 +59,7 @@ interval excluding zero; O1 if the 90% interval lies within a quarter of
 that gap. A go/no-go gate on raters, if used, should be stricter than six
 of eight (chance passes it about 14% of the time).
 
-The eight frames:
+The first eight frames:
 
 1. The new release will still support {whatever / what} this feature is, but behind a setting.
 2. He went straight to the minister with {whatever / what} it is that the analyst told him.
