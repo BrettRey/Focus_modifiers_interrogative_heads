@@ -6,6 +6,11 @@ Format: `## YYYY-MM-DD` then bullet points with **bold topic** and brief rationa
 
 ---
 
+## 2026-10-28
+
+- **Split the work: Brett runs the replication; Adele is offered the backgroundedness test (Brett: "yes").** Supersedes the entry below on where the replication runs. A side agent flagged that the squib's critical replication would stall inside the joint study: the joint study was planned for January-February 2026 and hasn't run yet, so its timing isn't in the squib's control. The *whatever/what* × ±*exactly* rating study is now Brett's own (`study-ever-exactly/protocol.md`, 8 frames, about 40 raters, Humber REB alongside the *independent-relative-whose* packet). The joint proposal to Adele is only Cuneo & Goldberg's Negation and Discourse tasks on the same frames (`study-focus-bci/design-revision-2026-10.md`, rewritten). The note to Adele is redrafted to match and is still unsent.
+- **Re-aim the joint *exactly* study with Adele Goldberg rather than drop it (Brett: "I agree").** BCI stays one hypothesis among others. The proposed additions are an eight-item *whatever/what* × ±*exactly* family in Study 1, replicating Brett's one-judge control with a sample, and Cuneo & Goldberg's Negation and Discourse tasks on the same frames with separate participants: the cell where BCI and the open-identity account still differ. Written as a separate file (`study-focus-bci/design-revision-2026-10.md`); the April design is untouched. Note to Adele drafted, not sent (`correspondence/2026-10-28-email-to-adele-exactly-ever.md`).
+
 ## 2026-10-27
 
 - **SPEC v2.1: "NP" becomes "phrase" in the argument definition.** "A peripheral modifier of the NP headed by the relative word" excluded the SPEC's own target strings (*the place exactly where*, *in exactly which case*, where *which* is a determiner), so it now reads "the phrase the relative word heads or determines". Motivation is the spec text, not the data; logged as post-data all the same. H10 becomes certified (the Codex auditor's only objection), H19 certified pending its COCA text ID, H11 stays pending (adjunct / exhaustive-conditional parse). Orchestrator's ruling on Lane C's flag, ratified by Brett in his own words in Lane C's session ("phrase, not NP", 2026-10-27 20:26 ET; checked in that transcript); `orchestration/lanes/data/SPEC-v2.1.md`.
