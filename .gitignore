@@ -14,3 +14,6 @@
 !main-*.pdf
 .DS_Store
 correspondence/
+
+# Three-lane orchestration run: internal deliberation and corpus lines, never publish
+orchestration/
