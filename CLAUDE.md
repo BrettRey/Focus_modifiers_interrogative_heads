@@ -18,7 +18,7 @@ Key points:
 1. CGEL recognizes interrogatives allow special modifiers (post-head *else*, pre/post-head *exactly/precisely*, stacking *just exactly/precisely*) (CGEL pp. 592, 915-918).
 2. The semantic questioned element may be smaller than the syntactic phrase (*whose* in *whose father*).
 3. Focusing modifiers attach at the NP periphery, e.g. `[NP [AdvP:Mod precisely] [NP:Head who]]`, parallel to *precisely nothing*, *exactly that*.
-4. Fused relatives pattern with integrated relatives, not interrogatives: `*Precisely what she built collapsed` (Pullum revision, 2025-12-23). Do not treat fused relatives as licensing precision modifiers.
+4. Plain fused relatives pattern with integrated relatives, not interrogatives: `*Precisely what she built collapsed` (Pullum revision, 2025-12-23). *-ever* fused relatives don't: the October 2026 run found *the hell* and post-head *exactly* after *whatever* in usage. `main.tex` predates that finding. See `STATUS.md` and `DECISIONS.md` (2026-10-27, 2026-10-28).
 5. The restriction is semantically natural: interrogatives denote alternatives/variable-values; *precisely/exactly* signals insistence on precise, exhaustive identification.
 
 Key references:
@@ -43,9 +43,9 @@ Key references:
 
 - Build the paper PDF:
   ```bash
-  lualatex main.tex && biber main && lualatex main.tex && lualatex main.tex
+  xelatex main.tex && biber main && xelatex main.tex && xelatex main.tex
   ```
-- If you prefer XeLaTeX (hinted by the `% !TEX` directive), swap `lualatex` for `xelatex`, but keep the same `biber` pass sequence.
+- The same sequence builds `main-glossa.tex`. Don't use LuaLaTeX: it runs words together in the PDF's text layer.
 - There is no Makefile in this repo; run the command directly from the project root.
 
 ## Coding Style & Naming Conventions
@@ -69,11 +69,6 @@ Key references:
 - Updating `.house-style/` affects formatting across the paper; do this only intentionally.
 - If you change style files, note the rationale in `STATUS.md` and rebuild the PDF to confirm the effect.
 
-## Multi-Agent Dispatch (MANDATORY)
+## Model Routing
 
-Before dispatching multiple agents, ALWAYS ask Brett:
-
-1. **Which model(s)?** Claude, Codex, Gemini, Copilot
-2. **Redundant outputs?** Multiple models on same task for different perspectives?
-
-See portfolio-level `CLAUDE.md` for CLI command patterns and full workflow.
+Choose the models and any redundancy yourself, following the portfolio rule in `LLM-CLI-projects/.claude/rules/multi-model-dispatch.md`; don't ask Brett. Participant data from the rating study stays off external routes once collected.
