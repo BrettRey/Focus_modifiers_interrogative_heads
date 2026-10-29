@@ -26,6 +26,11 @@ notes: 'Rejected after review by Glossa 2026-07-07 (manuscript 27281, editor Aga
   project''s files (checked STATUS.md, DECISIONS.md, SESSION_LOG.md, README.md, AGENTS.md); preprints
   field omitted rather than guessed. The related Goldberg empirical-follow-up collaboration (PORTFOLIO.md:136)
   is a separate tracked project relationship, not part of this squib''s own state.'
+claim:
+  argues: >-
+    Parked after Glossa rejection.
+  provenance: drafted-from-map
+  claim_updated: 2026-09-04
 ---
 
 # STATUS.md
