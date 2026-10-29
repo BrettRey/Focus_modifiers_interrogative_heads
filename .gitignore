@@ -17,3 +17,6 @@ correspondence/
 
 # Three-lane orchestration run: internal deliberation and corpus lines, never publish
 orchestration/
+
+# REB application drafts: personal contact details, never publish
+study-ever-exactly/reb/

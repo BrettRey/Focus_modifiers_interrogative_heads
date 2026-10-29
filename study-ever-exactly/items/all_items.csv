@@ -1,0 +1,138 @@
+item_id,item_type,frame,wh,modifier,condition,text,probe_noun,source
+F01A,experimental,F01,whatever,none,A,"The new release will still support whatever this feature is, but behind a setting.",feature,adapted from HN 34295663
+F01B,experimental,F01,whatever,exactly,B,"The new release will still support whatever exactly this feature is, but behind a setting.",feature,adapted from HN 34295663
+F01C,experimental,F01,what,none,C,"The new release will still support what this feature is, but behind a setting.",feature,adapted from HN 34295663
+F01D,experimental,F01,what,exactly,D,"The new release will still support what exactly this feature is, but behind a setting.",feature,adapted from HN 34295663
+F02A,experimental,F02,whatever,none,A,He went straight to the minister with whatever it is that the analyst told him.,information,adapted from iWeb (bipartisanreport.com)
+F02B,experimental,F02,whatever,exactly,B,He went straight to the minister with whatever exactly it is that the analyst told him.,information,adapted from iWeb (bipartisanreport.com)
+F02C,experimental,F02,what,none,C,He went straight to the minister with what it is that the analyst told him.,information,adapted from iWeb (bipartisanreport.com)
+F02D,experimental,F02,what,exactly,D,He went straight to the minister with what exactly it is that the analyst told him.,information,adapted from iWeb (bipartisanreport.com)
+F03A,experimental,F03,whatever,none,A,The introduction then eases into whatever the writer is trying to say.,point,adapted from iWeb (privatewriting.com)
+F03B,experimental,F03,whatever,exactly,B,The introduction then eases into whatever exactly the writer is trying to say.,point,adapted from iWeb (privatewriting.com)
+F03C,experimental,F03,what,none,C,The introduction then eases into what the writer is trying to say.,point,adapted from iWeb (privatewriting.com)
+F03D,experimental,F03,what,exactly,D,The introduction then eases into what exactly the writer is trying to say.,point,adapted from iWeb (privatewriting.com)
+F04A,experimental,F04,whatever,none,A,Meaning can't be reduced to whatever is allowed in a physical description.,property,adapted from iWeb (usyd.edu.au)
+F04B,experimental,F04,whatever,exactly,B,Meaning can't be reduced to whatever exactly is allowed in a physical description.,property,adapted from iWeb (usyd.edu.au)
+F04C,experimental,F04,what,none,C,Meaning can't be reduced to what is allowed in a physical description.,property,adapted from iWeb (usyd.edu.au)
+F04D,experimental,F04,what,exactly,D,Meaning can't be reduced to what exactly is allowed in a physical description.,property,adapted from iWeb (usyd.edu.au)
+F05A,experimental,F05,whatever,none,A,Whatever it was they were doing suddenly stopped.,activity,adapted from iWeb (pompeiana.org)
+F05B,experimental,F05,whatever,exactly,B,Whatever exactly it was they were doing suddenly stopped.,activity,adapted from iWeb (pompeiana.org)
+F05C,experimental,F05,what,none,C,What it was they were doing suddenly stopped.,activity,adapted from iWeb (pompeiana.org)
+F05D,experimental,F05,what,exactly,D,What exactly it was they were doing suddenly stopped.,activity,adapted from iWeb (pompeiana.org)
+F06A,experimental,F06,whatever,none,A,The landlord blamed the leak on whatever the plumber had installed.,part,new
+F06B,experimental,F06,whatever,exactly,B,The landlord blamed the leak on whatever exactly the plumber had installed.,part,new
+F06C,experimental,F06,what,none,C,The landlord blamed the leak on what the plumber had installed.,part,new
+F06D,experimental,F06,what,exactly,D,The landlord blamed the leak on what exactly the plumber had installed.,part,new
+F07A,experimental,F07,whatever,none,A,She gave the museum whatever her grandmother had left her.,items,new
+F07B,experimental,F07,whatever,exactly,B,She gave the museum whatever exactly her grandmother had left her.,items,new
+F07C,experimental,F07,what,none,C,She gave the museum what her grandmother had left her.,items,new
+F07D,experimental,F07,what,exactly,D,She gave the museum what exactly her grandmother had left her.,items,new
+F08A,experimental,F08,whatever,none,A,The committee rejected whatever the consultant had proposed.,proposal,new
+F08B,experimental,F08,whatever,exactly,B,The committee rejected whatever exactly the consultant had proposed.,proposal,new
+F08C,experimental,F08,what,none,C,The committee rejected what the consultant had proposed.,proposal,new
+F08D,experimental,F08,what,exactly,D,The committee rejected what exactly the consultant had proposed.,proposal,new
+F09A,experimental,F09,whatever,none,A,The tenant was charged for whatever the inspector had found broken.,items,new
+F09B,experimental,F09,whatever,exactly,B,The tenant was charged for whatever exactly the inspector had found broken.,items,new
+F09C,experimental,F09,what,none,C,The tenant was charged for what the inspector had found broken.,items,new
+F09D,experimental,F09,what,exactly,D,The tenant was charged for what exactly the inspector had found broken.,items,new
+F10A,experimental,F10,whatever,none,A,The editor cut whatever the reviewer had objected to.,passage,new
+F10B,experimental,F10,whatever,exactly,B,The editor cut whatever exactly the reviewer had objected to.,passage,new
+F10C,experimental,F10,what,none,C,The editor cut what the reviewer had objected to.,passage,new
+F10D,experimental,F10,what,exactly,D,The editor cut what exactly the reviewer had objected to.,passage,new
+F11A,experimental,F11,whatever,none,A,They auctioned off whatever the estate had left behind.,items,new
+F11B,experimental,F11,whatever,exactly,B,They auctioned off whatever exactly the estate had left behind.,items,new
+F11C,experimental,F11,what,none,C,They auctioned off what the estate had left behind.,items,new
+F11D,experimental,F11,what,exactly,D,They auctioned off what exactly the estate had left behind.,items,new
+F12A,experimental,F12,whatever,none,A,The crew cleared away whatever the storm had brought down.,debris,new
+F12B,experimental,F12,whatever,exactly,B,The crew cleared away whatever exactly the storm had brought down.,debris,new
+F12C,experimental,F12,what,none,C,The crew cleared away what the storm had brought down.,debris,new
+F12D,experimental,F12,what,exactly,D,The crew cleared away what exactly the storm had brought down.,debris,new
+F13A,experimental,F13,whatever,none,A,Customs confiscated whatever the traveller had failed to declare.,goods,new
+F13B,experimental,F13,whatever,exactly,B,Customs confiscated whatever exactly the traveller had failed to declare.,goods,new
+F13C,experimental,F13,what,none,C,Customs confiscated what the traveller had failed to declare.,goods,new
+F13D,experimental,F13,what,exactly,D,Customs confiscated what exactly the traveller had failed to declare.,goods,new
+F14A,experimental,F14,whatever,none,A,The chef threw out whatever the supplier had delivered.,food,new
+F14B,experimental,F14,whatever,exactly,B,The chef threw out whatever exactly the supplier had delivered.,food,new
+F14C,experimental,F14,what,none,C,The chef threw out what the supplier had delivered.,food,new
+F14D,experimental,F14,what,exactly,D,The chef threw out what exactly the supplier had delivered.,food,new
+F15A,experimental,F15,whatever,none,A,The new manager undid whatever her predecessor had set up.,arrangements,new
+F15B,experimental,F15,whatever,exactly,B,The new manager undid whatever exactly her predecessor had set up.,arrangements,new
+F15C,experimental,F15,what,none,C,The new manager undid what her predecessor had set up.,arrangements,new
+F15D,experimental,F15,what,exactly,D,The new manager undid what exactly her predecessor had set up.,arrangements,new
+F16A,experimental,F16,whatever,none,A,The court froze whatever the company owned.,assets,new
+F16B,experimental,F16,whatever,exactly,B,The court froze whatever exactly the company owned.,assets,new
+F16C,experimental,F16,what,none,C,The court froze what the company owned.,assets,new
+F16D,experimental,F16,what,exactly,D,The court froze what exactly the company owned.,assets,new
+F17A,experimental,F17,whatever,none,A,He went straight to the minister with whatever the analyst had told him.,information,new (variant of F02)
+F17B,experimental,F17,whatever,exactly,B,He went straight to the minister with whatever exactly the analyst had told him.,information,new (variant of F02)
+F17C,experimental,F17,what,none,C,He went straight to the minister with what the analyst had told him.,information,new (variant of F02)
+F17D,experimental,F17,what,exactly,D,He went straight to the minister with what exactly the analyst had told him.,information,new (variant of F02)
+F18A,experimental,F18,whatever,none,A,The janitor repaired whatever the students had damaged.,things,new (object frame added alongside subject frame F05)
+F18B,experimental,F18,whatever,exactly,B,The janitor repaired whatever exactly the students had damaged.,things,new (object frame added alongside subject frame F05)
+F18C,experimental,F18,what,none,C,The janitor repaired what the students had damaged.,things,new (object frame added alongside subject frame F05)
+F18D,experimental,F18,what,exactly,D,The janitor repaired what exactly the students had damaged.,things,new (object frame added alongside subject frame F05)
+F19A,experimental,F19,whatever,none,A,The movers packed whatever the family had stored in the garage.,things,new (alternative to F07)
+F19B,experimental,F19,whatever,exactly,B,The movers packed whatever exactly the family had stored in the garage.,things,new (alternative to F07)
+F19C,experimental,F19,what,none,C,The movers packed what the family had stored in the garage.,things,new (alternative to F07)
+F19D,experimental,F19,what,exactly,D,The movers packed what exactly the family had stored in the garage.,things,new (alternative to F07)
+F20A,experimental,F20,whatever,none,A,The tenant paid for whatever the inspector had flagged.,damage,new (variant of F09)
+F20B,experimental,F20,whatever,exactly,B,The tenant paid for whatever exactly the inspector had flagged.,damage,new (variant of F09)
+F20C,experimental,F20,what,none,C,The tenant paid for what the inspector had flagged.,damage,new (variant of F09)
+F20D,experimental,F20,what,exactly,D,The tenant paid for what exactly the inspector had flagged.,damage,new (variant of F09)
+F21A,experimental,F21,whatever,none,A,The editor deleted whatever the reviewer had marked.,passage,new (variant of F10)
+F21B,experimental,F21,whatever,exactly,B,The editor deleted whatever exactly the reviewer had marked.,passage,new (variant of F10)
+F21C,experimental,F21,what,none,C,The editor deleted what the reviewer had marked.,passage,new (variant of F10)
+F21D,experimental,F21,what,exactly,D,The editor deleted what exactly the reviewer had marked.,passage,new (variant of F10)
+F22A,experimental,F22,whatever,none,A,The insurer refused to cover whatever the flood had destroyed.,property,new
+F22B,experimental,F22,whatever,exactly,B,The insurer refused to cover whatever exactly the flood had destroyed.,property,new
+F22C,experimental,F22,what,none,C,The insurer refused to cover what the flood had destroyed.,property,new
+F22D,experimental,F22,what,exactly,D,The insurer refused to cover what exactly the flood had destroyed.,property,new
+F23A,experimental,F23,whatever,none,A,The volunteers sorted whatever the donors had dropped off.,donations,new
+F23B,experimental,F23,whatever,exactly,B,The volunteers sorted whatever exactly the donors had dropped off.,donations,new
+F23C,experimental,F23,what,none,C,The volunteers sorted what the donors had dropped off.,donations,new
+F23D,experimental,F23,what,exactly,D,The volunteers sorted what exactly the donors had dropped off.,donations,new
+F24A,experimental,F24,whatever,none,A,The archivist catalogued whatever the professor had kept in his office.,papers,new
+F24B,experimental,F24,whatever,exactly,B,The archivist catalogued whatever exactly the professor had kept in his office.,papers,new
+F24C,experimental,F24,what,none,C,The archivist catalogued what the professor had kept in his office.,papers,new
+F24D,experimental,F24,what,exactly,D,The archivist catalogued what exactly the professor had kept in his office.,papers,new
+F25A,experimental,F25,whatever,none,A,The mechanic replaced whatever the previous owner had fitted.,parts,new
+F25B,experimental,F25,whatever,exactly,B,The mechanic replaced whatever exactly the previous owner had fitted.,parts,new
+F25C,experimental,F25,what,none,C,The mechanic replaced what the previous owner had fitted.,parts,new
+F25D,experimental,F25,what,exactly,D,The mechanic replaced what exactly the previous owner had fitted.,parts,new
+F26A,experimental,F26,whatever,none,A,The school banned whatever the children had been bringing to class.,things,new
+F26B,experimental,F26,whatever,exactly,B,The school banned whatever exactly the children had been bringing to class.,things,new
+F26C,experimental,F26,what,none,C,The school banned what the children had been bringing to class.,things,new
+F26D,experimental,F26,what,exactly,D,The school banned what exactly the children had been bringing to class.,things,new
+F27A,experimental,F27,whatever,none,A,The collector returned whatever the artist had sent him.,works,new
+F27B,experimental,F27,whatever,exactly,B,The collector returned whatever exactly the artist had sent him.,works,new
+F27C,experimental,F27,what,none,C,The collector returned what the artist had sent him.,works,new
+F27D,experimental,F27,what,exactly,D,The collector returned what exactly the artist had sent him.,works,new
+FG01,filler_good,,,,,The bakery on the corner closes early on Sundays in the winter.,bakery,new
+FG02,filler_good,,,,,She folded the letter twice and slipped it into her coat pocket.,letter,new
+FG03,filler_good,,,,,The council postponed its decision until the spring meeting.,meeting,new
+FG04,filler_good,,,,,He keeps his old camera in a box under the kitchen sink.,camera,new
+FG05,filler_good,,,,,The recipe calls for exactly two eggs and a cup of flour.,,new
+FG06,filler_good,,,,,Nobody on the platform knew what time the last train left.,,new
+FG07,filler_good,,,,,"Whatever the forecast says, we're having the picnic on Saturday.",,new
+FG08,filler_good,,,,,The orchestra performed its best-known symphony at a festival in Montreal.,symphony,new
+FG09,filler_good,,,,,Our neighbours repainted their front door a surprisingly bright green.,door,new
+FG10,filler_good,,,,,The coach asked the players what they had eaten before the match.,,new
+FG11,filler_good,,,,,The library extended its hours during the week before exams.,library,new
+FG12,filler_good,,,,,"After the heavy rain, the river rose higher than anyone had expected.",river,new
+FB01,filler_bad,,,,,The farmer have sold most of his sheep at the autumn market.,,new
+FB02,filler_bad,,,,,Most of the guests had already leaving by the time the band arrived.,,new
+FB03,filler_bad,,,,,The nurses finished the shift an hour early the.,,new
+FB04,filler_bad,,,,,She put on the table the flowers that her friend had brought her yesterday the.,,new
+FB05,filler_bad,,,,,The tailor shortened two exactly centimetres the trousers.,,new
+FB06,filler_bad,,,,,The tourists asked the guide where the station is it.,,new
+FB07,filler_bad,,,,,He gave to his brother for his birthday it.,,new
+FB08,filler_bad,,,,,The bus driver were stopped for speeding on the highway last night.,,new
+FB09,filler_bad,,,,,The puppies is sleeping in the basket by the stove.,,new
+FB10,filler_bad,,,,,"Whatever says the doctor, I'm going to finish the race.",,new
+FB11,filler_bad,,,,,The lecture went on longer more than the audience had planned for.,,new
+FB12,filler_bad,,,,,The gardener a fence painted brown new around the vegetables.,,new
+AC1,attention,,,,,"To show you're reading carefully, please choose 2 for this sentence.",,new
+AC2,attention,,,,,"To show you're reading carefully, please choose 6 for this sentence.",,new
+P1,practice_natural,,,,,The children planted tomatoes along the back wall of the garden.,,new
+P2,practice_unnatural,,,,,The children planted along the back wall tomatoes of garden the.,,new
+P3,practice_intermediate,,,,,The children planted along the back wall the tomatoes.,,new
